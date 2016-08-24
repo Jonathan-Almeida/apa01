@@ -1,9 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -21,21 +15,11 @@ public class Ordenacao {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        
-        
         //executar1();
-        
         
         executar2(Integer.parseInt(args[0]), args[1]);
         
-        
-//        for(int i=0; i<10; i++){
-//            executar3();
-//        }
-        
     }
-    
     
     public static void executar1(){
         Scanner input = new Scanner(System.in);
@@ -148,8 +132,7 @@ public class Ordenacao {
     
     //------------------------------------------------- n^2 --------------------------------------------------
     public static void Selection(ArrayList<Integer> lista){
-        //ArrayList<Integer> lista = new ArrayList<>(lista0);
-        
+
         int menor;
         int aux;
         
@@ -168,8 +151,6 @@ public class Ordenacao {
     }
     
     public static void Insertion(ArrayList<Integer> lista){
-        //ArrayList<Integer> lista = new ArrayList<>(lista0);
-        
         int aux;
         int j;
         
